@@ -18,7 +18,7 @@ Put the `imcap_picam.py` into raspberry pi. User home directory is better locati
 ## Usage
 Prepare a USB drive formatted as exfat and named rpi. It should be mounted at `/media/pi/rpi/`. 
 
-To capture 25,000 frame images, run the follwoing line on the terminal. 
+To capture 25,000 frame images, run the following line on the terminal. 
 
 ```shell
 $ imcap_picam 25000
@@ -48,5 +48,5 @@ You can see the live view, and press `ctr+c` to stop the live view.
 ## Reference
 Kawano, Taizo et al. “ER proteostasis regulators cell-non-autonomously control sleep.” Cell reports vol. 42,3 (2023): 112267. doi: 10.1016/j.celrep.2023.112267
 
-## Licence
+## License
 MPL-2.0
