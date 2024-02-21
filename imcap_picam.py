@@ -4,6 +4,9 @@ Created on Tue May  8 14:41:49 2018
 
 @author: taizo kawano
 """
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
 
 #240220 imcap_picam_180516 is used as base
 # raspberry pi 3B python2 
@@ -272,8 +275,8 @@ class Imagecaptuergui(Tkinter.Frame):
             tk = Tkinter.Tk()
             tk.withdraw()
             
-            #initialdir = "home/pi/programs"
-            initialdir = "/media/pi/rpi/"
+            #initialdir = "home/pi/programs"#this must be flexible  
+            initialdir = "  "
             
             parentdir = filedialog.askdirectory(initialdir = initialdir)
             print(parentdir)
