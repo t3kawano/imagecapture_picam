@@ -21,7 +21,7 @@ Prepare a USB drive formatted as exfat and named rpi. It should be mounted at `/
 To capture 25,000 frame images, run the following line on the terminal. 
 
 ```shell
-$ imcap_picam 25000
+$ python imcap_picam.py 25000
 ```
 
 It will show folder chooser to set USB drive for saving images.
@@ -29,7 +29,7 @@ It will show folder chooser to set USB drive for saving images.
 You can preview how look like without saving image by; 
 
 ```shell
-$ imcap_picam live
+$ python imcap_picam.py live
 ```
 
 However, following is easier for sample positioning.
@@ -46,7 +46,7 @@ You can see the live view, and press `ctr+c` to stop the live view.
 ## Author -->
 
 ## Reference
-Kawano, Taizo et al. “ER proteostasis regulators cell-non-autonomously control sleep.” Cell reports vol. 42,3 (2023): 112267. doi: 10.1016/j.celrep.2023.112267
+Kawano, Taizo et al. “ER proteostasis regulators cell-non-autonomously control sleep.” Cell reports vol. 42,3 (2023): 112267. [doi: 10.1016/j.celrep.2023.112267](https://doi.org/10.1016/j.celrep.2023.112267)
 
 ## License
 MPL-2.0
