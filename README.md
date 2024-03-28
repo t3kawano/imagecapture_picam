@@ -11,6 +11,9 @@ This code was written for image capture step of the Rapid C. elegans motion imag
  - Raspberry Pi Camera V2
  - USB drive
  - python2
+ - numpy
+ - cv2
+ - picamera
 
 ## Installation
 Put the `imcap_picam.py` into raspberry pi. User home directory is better location for easy use.
